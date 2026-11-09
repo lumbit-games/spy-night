@@ -1,6 +1,6 @@
 // Offline support. The page: network first, cache when offline. Other files: cache first, refreshed in
 // the background. Bump CACHE when the file list changes.
-const CACHE = "spy-night-v1";
+const CACHE = "spy-night-v2";
 // Only our own files and Google Fonts are cached. Everything else (analytics counts) goes straight to the network.
 const CACHEABLE = [self.location.origin, "https://fonts.googleapis.com", "https://fonts.gstatic.com"];
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png", "./favicon-32.png"];

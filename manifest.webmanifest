@@ -2,7 +2,7 @@
   "name": "Spy Night",
   "short_name": "Spy Night",
   "description": "A party game for one phone. Everyone knows the secret word, except the spy.",
-  "id": "./",
+  "id": "/spy-night/",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
