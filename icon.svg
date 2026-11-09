@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#3a1a3c"/>
+      <stop offset="1" stop-color="#0c1020"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- secret card behind the spy -->
+  <rect x="150" y="96" width="212" height="290" rx="26" fill="#1c2440" stroke="#2f3a60" stroke-width="6" transform="rotate(-8 256 241)"/>
+  <!-- spy: hat and glasses -->
+  <g filter="url(#glow)" fill="#ff5d73">
+    <path d="M176 238 Q182 170 214 160 Q256 150 298 160 Q330 170 336 238 Z"/>
+    <ellipse cx="256" cy="244" rx="128" ry="26"/>
+  </g>
+  <rect x="190" y="248" width="132" height="12" fill="#2b0710" opacity=".55"/>
+  <g fill="#0c1020" stroke="#ffc65c" stroke-width="10">
+    <circle cx="214" cy="318" r="36"/>
+    <circle cx="298" cy="318" r="36"/>
+  </g>
+  <path d="M250 316 Q256 306 262 316" fill="none" stroke="#ffc65c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="204" cy="308" r="8" fill="#ffffff" opacity=".85"/>
+  <circle cx="288" cy="308" r="8" fill="#ffffff" opacity=".85"/>
+</svg>
